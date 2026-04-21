@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yoonieverse/electronapp/issues"
   },
-  "homepage": "https://github.com/yoonieverse/electronapp#readme"
+  "homepage": "https://github.com/yoonieverse/electronapp#readme",
+  "devDependencies": {
+    "electron": "^41.2.1"
+  }
 }
