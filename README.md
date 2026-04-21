@@ -8,3 +8,6 @@ npm install electron --save-dev
 
 
 brew install git-filter-repo
+
+To start:
+npm run start
