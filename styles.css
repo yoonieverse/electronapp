@@ -8,13 +8,18 @@ body {
   width: 100vw;
   height: 100vh;
 
-  background: white;
-  user-select: none;
   -webkit-app-region: drag;
+  background-image:  url(assets/Rectangle\ 2.png), url(assets/Rectangle\ 1.png);
+  background-size: 180px , cover;   /* Stretches to fill */
+  background-position: center 20%, center;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .app {
-  padding: 16px;
+  position: relative;
+  width: 400px; 
+  height: 500px;
+ 
 }
 
 button,
@@ -24,3 +29,83 @@ select {
   -webkit-app-region: no-drag;
   cursor: pointer;
 }
+
+.title{
+
+    display: flex;
+    padding: 0.25 rem 0.625 rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    color: var(--white, #fff);
+    font-family: "Pixelify";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*
+<uniquifier>
+weight: use a value from 200-900
+
+*/
+.source-code-pro-{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+
+#calendar{
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-synthesis-position: auto;
+}
+
+#title{
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  font-synthesis-position: auto;
+}
+
+.deco {
+  position: absolute;
+  pointer-events: none; 
+} 
+
+.button1 { 
+  position: absolute;
+  top: 175px; 
+  left: 165px; 
+  width: 30px; 
+}
+
+.button2 { 
+  position: absolute;
+  top:145px; 
+  left: 152px; 
+  width: 30px; 
+}
+.button3 { 
+  position: absolute;
+  top:160px; 
+  left: 130px; 
+  width: 30px; 
+}
+
+.bmoSmile { 
+  position: absolute;
+  top:35px; 
+  left: 32px; 
+  width: 150px; 
+}
+
+.star { 
+  position: absolute;
+  top:172px; 
+  left: 14px; 
+  width: 50px;
+}
+
