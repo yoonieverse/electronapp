@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+ 
 }
 
 
@@ -30,7 +30,7 @@ select {
   cursor: pointer;
 }
 
-.title{
+/* .title{
 
     display: flex;
     padding: 0.25 rem 0.625 rem;
@@ -38,36 +38,47 @@ select {
     align-items: center;
     gap: 0.625rem;
 
-    color: var(--white, #fff);
+    color: var(--black, #000000);
     font-family: "Pixelify";
-    font-size: 1rem;
+    font-size: 1rem;  
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    top: 10px;
+} */
+
+.title{
+  position: absolute;
+  top: 134px;
+  left: 85px;
+  transform: translateX(-50%); /* centers horizontally */
+
+  font-family: "VT323", monospace;
+  font-size: 28px;
+
+}
+
+#calendar{
+  position: absolute;
+  top: 47px;
+  left: 105px;
+  transform: translateX(-50%);
+
+  text-align: center;   /* centers the text inside */
+
+  font-family: "VT323", monospace;
+  font-size: 40px;
 }
 
 /*
 <uniquifier>
 weight: use a value from 200-900
-
 */
 .source-code-pro-{
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 250;
   font-style: normal;
-}
-
-#calendar{
-  font-family: "Source Code Pro", monospace;
-  font-size: 20px;
-  font-synthesis-position: auto;
-}
-
-#title{
-  font-family: "Source Code Pro", monospace;
-  font-size: 20px;
-  font-synthesis-position: auto;
 }
 
 .deco {
@@ -90,7 +101,7 @@ weight: use a value from 200-900
 }
 .button3 { 
   position: absolute;
-  top:160px; 
+  top:164px; 
   left: 130px; 
   width: 30px; 
 }
@@ -98,13 +109,13 @@ weight: use a value from 200-900
 .bmoSmile { 
   position: absolute;
   top:35px; 
-  left: 32px; 
+  left: 30px; 
   width: 150px; 
 }
 
 .star { 
   position: absolute;
-  top:172px; 
+  top:169px; 
   left: 14px; 
   width: 50px;
 }

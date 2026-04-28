@@ -11,7 +11,7 @@ npm init -y
 install electron
 npm install electron --save-dev
 brew install git-filter-repo
-npm install electron-reload     (used for hot/live reloading )
+npm install electron-reload     (used for hot/live )
 
 
 ###   To run:
