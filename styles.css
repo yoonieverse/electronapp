@@ -54,7 +54,7 @@ select {
   transform: translateX(-50%); /* centers horizontally */
 
   font-family: "VT323", monospace;
-  font-size: 28px;
+  font-size: 25px;
 
 }
 
@@ -90,20 +90,20 @@ weight: use a value from 200-900
   position: absolute;
   top: 175px; 
   left: 165px; 
-  width: 30px; 
+  width: 28px; 
 }
 
 .button2 { 
   position: absolute;
   top:145px; 
   left: 152px; 
-  width: 30px; 
+  width: 32px; 
 }
 .button3 { 
   position: absolute;
   top:164px; 
   left: 130px; 
-  width: 30px; 
+  width: 33px; 
 }
 
 .bmoSmile { 
