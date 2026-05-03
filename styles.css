@@ -2,6 +2,10 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; 
 }
 
 .app {
@@ -9,10 +13,9 @@ body {
   width: 400px;
   height: 500px;
 
-  /* Move background from body to here */
   background-image: url(assets/Rectangle\ 2.png), url(assets/Rectangle\ 1.png);
-  background-size:  200px, cover;
-  background-position: 4% 4%, center;
+  background-size: 180px, cover;
+  background-position: center 20%, center;
   background-repeat: no-repeat, no-repeat;
 }
 
