@@ -5,18 +5,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffff; 
+  background: #40e0d0; 
 }
 
 .app {
   position: relative;
   width: 400px;
   height: 500px;
-
   background-image: url(assets/Rectangle\ 2.png), url(assets/Rectangle\ 1.png);
   background-size: 180px, cover;
-  background-position: center 20%, center;
+  background-position: center 15%, center;
   background-repeat: no-repeat, no-repeat;
+  overflow: hidden; 
 }
 
 button,
