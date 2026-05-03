@@ -1,25 +1,19 @@
-* {
- 
-}
-
-
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-
-  -webkit-app-region: drag;
-  background-image:  url(assets/Rectangle\ 2.png), url(assets/Rectangle\ 1.png);
-  background-size: 180px , cover;   /* Stretches to fill */
-  background-position: center 20%, center;
-  background-repeat: no-repeat, no-repeat;
 }
 
 .app {
   position: relative;
-  width: 400px; 
+  width: 400px;
   height: 500px;
- 
+
+  /* Move background from body to here */
+  background-image: url(assets/Rectangle\ 2.png), url(assets/Rectangle\ 1.png);
+  background-size:  200px, cover;
+  background-position: 4% 4%, center;
+  background-repeat: no-repeat, no-repeat;
 }
 
 button,
@@ -29,24 +23,6 @@ select {
   -webkit-app-region: no-drag;
   cursor: pointer;
 }
-
-/* .title{
-
-    display: flex;
-    padding: 0.25 rem 0.625 rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-
-    color: var(--black, #000000);
-    font-family: "Pixelify";
-    font-size: 1rem;  
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    top: 10px;
-} */
-
 .title{
   position: absolute;
   top: 134px;
