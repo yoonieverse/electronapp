@@ -5,18 +5,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #40e0d0; 
+  background: #ffffff; 
 }
 
 .app {
   position: relative;
   width: 400px;
-  height: 500px;
+  height: 450px;
   background-image: url(assets/Rectangle\ 2.png), url(assets/Rectangle\ 1.png);
-  background-size: 180px, cover;
-  background-position: center 15%, center;
+  background-size: 250px, 300px;
+  background-position: center 15%, center 15%;
   background-repeat: no-repeat, no-repeat;
   overflow: hidden; 
+  -webkit-app-region: drag; /* makes the window draggable */
 }
 
 button,
@@ -28,25 +29,25 @@ select {
 }
 .title{
   position: absolute;
-  top: 134px;
-  left: 85px;
+  top: 210px;
+  left: 150px;
   transform: translateX(-50%); /* centers horizontally */
 
   font-family: "VT323", monospace;
-  font-size: 25px;
+  font-size: 30px;
 
 }
 
 #calendar{
   position: absolute;
-  top: 47px;
-  left: 105px;
+  top: 75px;
+  left: 200px;
   transform: translateX(-50%);
 
   text-align: center;   /* centers the text inside */
 
   font-family: "VT323", monospace;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 /*
@@ -67,35 +68,35 @@ weight: use a value from 200-900
 
 .button1 { 
   position: absolute;
-  top: 175px; 
-  left: 165px; 
-  width: 28px; 
+  top: 260px; 
+  left: 280px; 
+  width: 38px; 
 }
 
 .button2 { 
   position: absolute;
-  top:145px; 
-  left: 152px; 
-  width: 32px; 
+  top:230px; 
+  left: 240px; 
+  width: 50px; 
 }
 .button3 { 
   position: absolute;
-  top:164px; 
-  left: 130px; 
-  width: 33px; 
+  top:270px; 
+  left: 227px; 
+  width: 48px; 
 }
 
 .bmoSmile { 
   position: absolute;
-  top:35px; 
-  left: 30px; 
-  width: 150px; 
+  top:60px; 
+  left:117px; 
+  width: 170px; 
 }
 
 .star { 
   position: absolute;
-  top:169px; 
-  left: 14px; 
-  width: 50px;
+  top:250px; 
+  left: 80px; 
+  width: 65px;
 }
 

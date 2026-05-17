@@ -9,6 +9,5 @@ function updateCalendar() {
     document.getElementById('month').textContent = month;
 
 }
-
 // Initalize/call the calendar function 
 updateCalendar();
