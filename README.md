@@ -8,11 +8,12 @@ npm init -y
 
 
 ###   Install Dependecies 
+Note: For windows (python/pip) & macOS and Linux (brew)
 install electron
 npm install electron --save-dev
-brew install git-filter-repo
+brew/pip install git-filter-repo
 npm install electron-reload     (used for hot/live )
 
 
 ###   To run:
-npm run start / npm start
+npm start

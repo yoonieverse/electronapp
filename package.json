@@ -18,7 +18,6 @@
     "define-data-property": "^1.1.4",
     "define-properties": "^1.2.1",
     "detect-node": "^2.1.0",
-    "electron": "^41.2.1",
     "end-of-stream": "^1.4.5",
     "env-paths": "^2.2.1",
     "es-define-property": "^1.0.1",
@@ -80,6 +79,7 @@
   },
   "homepage": "https://github.com/yoonieverse/electronapp#readme",
   "devDependencies": {
+    "electron": "^42.1.0",
     "electron-reload": "^2.0.0-alpha.1"
   }
 }
