@@ -1,5 +1,5 @@
 # About
-This project is just me having fun while experimenting with different tech while practicing HTML/CSS/JS.
+This project is just me having fun & experimenting with different tech while practicing HTML/CSS/JS.
 
 
 ##  Initialize 
