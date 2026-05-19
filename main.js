@@ -1,11 +1,6 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
 
-/* Allows real-time changes to appear */
-require('electron-reload')(__dirname, {
-  electron: require('path').join(__dirname, 'node_modules', '.bin', 'electron')
-});
-
 function createWindow() {
   const win = new BrowserWindow({
     width: 400,
@@ -17,11 +12,14 @@ function createWindow() {
     frame: false, 
     transparent: true,
     webPreferences: {
-      contextIsolation: true
+      contextIsolation: true,
+      nodeIntegration: true
     }
   });
 
   win.loadFile("index.html");
+  // Inspect electron app for debugging
+  // win.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
@@ -29,3 +27,4 @@ app.whenReady().then(createWindow);
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
+
